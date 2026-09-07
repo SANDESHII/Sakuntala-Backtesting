@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "backtest:epl": "tsx src/backtest-epl.ts",
+    "backtest:all": "tsx src/backtest-all-leagues.ts",
+    "analyze:clv": "tsx src/analyze-clv.ts",
+    "optimize": "tsx src/optimize-parameters.ts",
+    "market-data": "tsx src/market-integration-runner.ts",
+    "generate-report": "tsx src/generate-performance-report.ts",
+    "test": "echo \"No tests yet\" && exit 0"
+  }
+}
